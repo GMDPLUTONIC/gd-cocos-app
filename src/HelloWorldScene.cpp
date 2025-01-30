@@ -16,7 +16,7 @@ bool HelloWorld::init() {
 	auto winSize = CCDirector::sharedDirector()->getWinSize();
 	println("Window size is {}x{}", winSize.width, winSize.height);
 
-	auto* label = CCLabelBMFont::create("Hello World", "bigFont.fnt");
+	auto* label = CCLabelBMFont::create("Singularity", "bigFont.fnt");
 	label->setPosition(winSize / 2);
 	this->addChild(label);
 
