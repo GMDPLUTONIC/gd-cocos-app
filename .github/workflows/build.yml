@@ -1,4 +1,4 @@
-name: Build Geode Mod
+name: Build Singularity
 
 on:
   workflow_dispatch:
@@ -42,4 +42,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: output
-          path: build/Release/my-cocos-app.exe
+          path: build/Release/singularity.exe
