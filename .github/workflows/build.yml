@@ -29,7 +29,7 @@ jobs:
           echo "GEODE_SDK=$GEODE_SDK" >> $GITHUB_ENV
 
           # set a specific version that is guaranteed to work
-          geode sdk update v4.2.0
+          geode sdk update v3.8.1
 
       - name: Run CMake and build
         id: build
