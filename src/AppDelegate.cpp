@@ -5,7 +5,7 @@
 void AppDelegate::setupGLView() {
 	auto* director = CCDirector::sharedDirector();
 
-	auto* glView = CCEGLView::createWithRect("Hello!", CCRect(0, 0, 1280, 720), 1.0f);
+	auto* glView = CCEGLView::createWithRect("Singularity!", CCRect(0, 0, 1280, 720), 1.0f);
 	director->setOpenGLView(glView);
 
 	director->setupScreenScale({480, 320}, {1280, 720}, TextureQuality::kTextureQualityHigh);
