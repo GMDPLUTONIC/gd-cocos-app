@@ -17,7 +17,7 @@ jobs:
       - name: Setup CLI
         uses: geode-sdk/cli/.github/actions/setup@v4.2.0
         with:
-          version: v4.2.0
+          version: v3.4.0
 
       - name: Setup Geode SDK
         shell: bash
